@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Lottie Judge</title>
-  <link href="codingwork.css" type="text/css" rel="stylesheet">
-  <link href="/Users/lottiejudge/Desktop/codingFiles/Portfolio Webiste/Navbar/nav.html" rel="import">
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-</head>
-<header>
-</header>
+  <head>
+    <title>Lottie Judge</title>
+    <link href="codingwork.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+       crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <body id="Portfolio">
+    <header>
+      <div id="nav-placeholder">LJ</div>
+    </header>
+  
+    <script>
+      $(document).ready(function() {
+        $.get("Navbar/nav.html", function(data) {
+          $("#nav-placeholder").replaceWith(data);
+        }).fail(function() {
+          console.error("Failed to load navigation bar.");
+        });
+      });
+    </script>
+
 <!-- id so landing page links to this  -->
-<body id="Portfolio">
+
   <h1>Coding work</h1>
 <!-- bento box layout for coding portfolio  -->
   <div class="container">
