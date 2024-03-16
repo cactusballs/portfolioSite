@@ -1,4 +1,5 @@
 Portfolio project WIP
+
 Currenty working on - 
 making navbar universal across all pages 
 content 
