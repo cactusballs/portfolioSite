@@ -124,11 +124,9 @@ a {
   
 }
 
-.box img {
+.boxPhoto img {
   width: 60%;
   height: auto;
-  justify-self: center;
-  align-self: center;
 }
 
 
