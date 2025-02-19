@@ -3,7 +3,7 @@ Portfolio project WIP
 Currenty working on - 
 making navbar universal across all pages 
 content 
-JS/jQuery features
+Javascript features 
 add in images for projects
 create as fullstack 
 
