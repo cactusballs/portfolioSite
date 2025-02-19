@@ -11,8 +11,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-md">
       <div className="container-fluid">
-        <Link href="/">
-          <a className="navbar-brand">LJ</a>
+        <Link href="/" className="navbar-brand">
+          LJ
         </Link>
         <button
           className="navbar-toggler"
@@ -29,31 +29,23 @@ const Navbar = () => {
         <div className={`collapse navbar-collapse ${isMobileMenuOpen ? "show" : ""}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link href="/who/who">
-                <a className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
-                  About
-                </a>
+              <Link href="/who/who" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+                About
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/codingwork/codingwork">
-                <a className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
-                  Web Development Work
-                </a>
+              <Link href="/codingwork/codingwork" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+                Web Development Work
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/cv/cv">
-                <a className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
-                  Other Professional Work
-                </a>
+              <Link href="/cv/cv" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+                Other Professional Work
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact/contact">
-                <a className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
-                  Gallery
-                </a>
+              <Link href="/contact/contact" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+                Gallery
               </Link>
             </li>
           </ul>
