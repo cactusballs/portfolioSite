@@ -1,11 +1,10 @@
-import Navbar from '../components/navbar';   // Import Navbar component
-import Footer from '../components/footer';   // Import Footer component
-import '../styles/global.css';  // Import global styles here
+import React, { useState } from 'react';
+import Navbar from '../components/navbar';  
 
 function HomePage() {
   return (
     <>
-      <Navbar /> {/* Render Navbar component */}
+      <Navbar /> 
       <main>
         <div className="hero">
           <h4>Hiya, I'm</h4>
@@ -38,7 +37,6 @@ function HomePage() {
           </div>
         </div>
       </main>
-      <Footer /> {/* Render Footer component */}
     </>
   );
 }

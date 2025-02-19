@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "tailwindcss build src/styles.css -o dist/styles.css"
+    "build": "next build"
   },
   "keywords": [],
   "author": "",
