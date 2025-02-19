@@ -4,7 +4,9 @@
   "description": "Portfolio project WIP",
   "main": "portfolio.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tailwindcss build src/styles.css -o dist/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -12,9 +14,13 @@
   "dependencies": {
     "@types/node": "^22.13.4",
     "@types/react": "^19.0.10",
+    "bootstrap": "^5.3.3",
     "next": "^15.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "vite": "^6.1.1"
   }
 }
