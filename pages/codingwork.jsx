@@ -19,49 +19,67 @@ export default function codingWork(){
         ></script>
       </Head>
 
-      <Navbar
+      <Navbar />
+
+      <div className="container mt-5">
+        <h1 className="text-center">Coding Work</h1>
+
+        <div className="row mt-4">
+          <div className="col-md-6">
+            <div className="box">
+              <h2>This Website</h2>
+              <p>
+                I coded this entire website from scratch. In the CV section, I even designed that font. Take a look at my coding files{" "}
+                <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer">here</a>.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="box">Image</div>
+          </div>
+        </div>
+
+        <div className="row mt-4">
+          <div className="col-md-6">
+            <div className="box">
+              <h2>Anvil Design and Fabrication</h2>
+              <p>
+                Anvil Design and Fabrication is a seriously slick outfit that needed a brand new website,{" "}
+                <a href="https://anvildesign.com" target="_blank" rel="noopener noreferrer">it's here</a>. And here are the{" "}
+                <a href="https://github.com/cactusballs/Anvil" target="_blank" rel="noopener noreferrer">code files</a>.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="box">Image</div>
+          </div>
+        </div>
+
+        <div className="row mt-4">
+          <div className="col-md-6">
+            <div className="box">
+              <h2>Village</h2>
+              <p>
+                An SMS service I designed for people who want to quit smoking. Don't Smoke, It's Bad, will send you a daily SMS with a message to remind you why you're quitting!{" "}
+                <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer">Here</a> are the coding files.
+              </p>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="box">Image</div>
+          </div>
+        </div>
+
+        <div className="row mt-4">
+          <div className="col-md-12">
+            <div className="box text-center">
+              <h2>Small Projects, Big Gains</h2>
+              <p>Small things I've worked on to learn. I learned tonnes, they were fun and I'm proud of them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 
 }
-
-
-<html>
-  <head>
-    <title>Lottie Judge</title>
-    <link href="codingwork.css" type="text/css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-       crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  </head>
-  <body id="Portfolio">
-    <header>
-      <div id="nav-placeholder">LJ</div>
-    </header>
-
-<!-- id so landing page links to this  -->
-<h1>Coding work</h1>
-<!-- bento box layout for coding portfolio  -->
-  <div class="container">
-      <div class="box 1">
-        <h2>This Website</h2>
-        <p>I coded this entire website from scratch. In the CV section, I even designed that font. Take a look at my coding files <a href="githhub despos for this">here</a></p>
-      </div>
-      <div class="box 2">image</div>
-      <div class="box 3">image</div>
-      <div class="box 4">
-        <h2>Anvil Design and Fabrication</h2>
-        <p>Anvil Design and Fabrication is a seriously slick outfit that needed a brand new website, <a href="anvil design">it's here</a>. And here are the <a href="https://github.com/cactusballs/Anvil">code files</a></p>
-      </div>
-      <div class="box 5">
-        <h2>Village</h2>
-        <p>An SMS service I designed for people who want to quit smoking. Don't Smoke, It's Bad, will send you a daily SMS with a message to remind you why you're quitting! <a href="code files for dont smoke its bad">here</a> are the coding files</p></div>
-      <div class="box 6">Image</div>
-      <div class="box 7">image</div>
-      <div class="box 8"> <h2>Small Projects, Big Gains</h2>
-      <p>Small things I've worked on to learn. I learned tonnes, they were fun and I'm proud of them</p></div>
-      
-  </div>
-
-</body>
-</html>
