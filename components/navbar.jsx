@@ -29,22 +29,22 @@ const Navbar = () => {
         <div className={`collapse navbar-collapse ${isMobileMenuOpen ? "show" : ""}`} id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link href="/who/who" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/who" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/codingwork/codingwork" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/codingwork" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
                 Web Development Work
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/cv/cv" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/cv" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
                 Other Professional Work
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/contact/contact" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/contact" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>
                 Gallery
               </Link>
             </li>

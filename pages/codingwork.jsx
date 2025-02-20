@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
-import Link from 'next/Link'
+import Link from 'next/link';
 import Navbar from "../components/navbar"; 
-import '../styles/codingwork.css'; 
+
 
 export default function codingWork(){
 
@@ -18,8 +18,6 @@ export default function codingWork(){
           defer
         ></script>
       </Head>
-
-      <Navbar />
 
       <div className="container mt-5">
         <h1 className="text-center">Coding Work</h1>

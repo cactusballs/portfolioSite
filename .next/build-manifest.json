@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/6rjCjGawMOjkwICBRFYlH/_buildManifest.js",
-    "static/6rjCjGawMOjkwICBRFYlH/_ssgManifest.js"
+    "static/D_UlGw92RxshLxiZfQTqJ/_buildManifest.js",
+    "static/D_UlGw92RxshLxiZfQTqJ/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
@@ -22,13 +22,19 @@
       "static/chunks/framework-b96261d959dd50e7.js",
       "static/chunks/main-e5cda668ab60045f.js",
       "static/css/17d90a50967578da.css",
-      "static/chunks/pages/_app-2ea52ef800a69737.js"
+      "static/chunks/pages/_app-7c55f326dc11a3dc.js"
     ],
     "/_error": [
       "static/chunks/webpack-8cac0b4b405cede1.js",
       "static/chunks/framework-b96261d959dd50e7.js",
       "static/chunks/main-e5cda668ab60045f.js",
       "static/chunks/pages/_error-fde50cb7f1ab27e0.js"
+    ],
+    "/codingwork": [
+      "static/chunks/webpack-8cac0b4b405cede1.js",
+      "static/chunks/framework-b96261d959dd50e7.js",
+      "static/chunks/main-e5cda668ab60045f.js",
+      "static/chunks/pages/codingwork-e9f65026ce5fd8e2.js"
     ],
     "/cv": [
       "static/chunks/webpack-8cac0b4b405cede1.js",
