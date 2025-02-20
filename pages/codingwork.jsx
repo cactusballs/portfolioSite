@@ -1,4 +1,31 @@
-<!DOCTYPE html>
+import React, { useState } from 'react';
+import Head from 'next/head';
+import Link from 'next/Link'
+import Navbar from "../components/navbar"; 
+import '../styles/codingwork.css'; 
+
+export default function codingWork(){
+
+  return (
+    <>
+      <Head>
+        <title>Lottie Judge - Coding Work</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script 
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossOrigin="anonymous"
+          defer
+        ></script>
+      </Head>
+
+      <Navbar
+    </>
+  )
+
+}
+
+
 <html>
   <head>
     <title>Lottie Judge</title>
