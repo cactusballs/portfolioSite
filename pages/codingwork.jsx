@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Navbar from "../components/navbar"; 
+import '../styles/codingwork.module.css'
 
 
 export default function codingWork(){
@@ -80,4 +81,29 @@ export default function codingWork(){
     </>
   )
 
+}
+
+
+body{
+  font-size: 18px;
+  font-family: 'Spartan', 'Montserrat', 'Futura', sans-serif;
+  background-color: rgba(255, 255, 245, 0.9);
+}
+
+body{
+  margin: 40px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  color: rgb(26, 65, 87); 
+}
+
+.box {
+  background-color: rgba(208, 220, 232, 0.5);
+  color: rgb(26, 65, 87);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 0.75rem
 }

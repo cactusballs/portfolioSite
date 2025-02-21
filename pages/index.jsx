@@ -4,7 +4,6 @@ import Navbar from '../components/navbar';
 function HomePage() {
   return (
     <>
-      <Navbar /> 
       <main>
         <div className="hero">
           <h4>Hiya, I'm</h4>

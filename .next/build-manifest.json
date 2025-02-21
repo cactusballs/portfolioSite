@@ -1,52 +1,32 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-42372ed130431b0a.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/D_UlGw92RxshLxiZfQTqJ/_buildManifest.js",
-    "static/D_UlGw92RxshLxiZfQTqJ/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
   "pages": {
     "/": [
-      "static/chunks/webpack-8cac0b4b405cede1.js",
-      "static/chunks/framework-b96261d959dd50e7.js",
-      "static/chunks/main-e5cda668ab60045f.js",
-      "static/chunks/pages/index-a72d861f021ad8c5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
-      "static/chunks/webpack-8cac0b4b405cede1.js",
-      "static/chunks/framework-b96261d959dd50e7.js",
-      "static/chunks/main-e5cda668ab60045f.js",
-      "static/css/17d90a50967578da.css",
-      "static/chunks/pages/_app-7c55f326dc11a3dc.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-8cac0b4b405cede1.js",
-      "static/chunks/framework-b96261d959dd50e7.js",
-      "static/chunks/main-e5cda668ab60045f.js",
-      "static/chunks/pages/_error-fde50cb7f1ab27e0.js"
-    ],
-    "/codingwork": [
-      "static/chunks/webpack-8cac0b4b405cede1.js",
-      "static/chunks/framework-b96261d959dd50e7.js",
-      "static/chunks/main-e5cda668ab60045f.js",
-      "static/chunks/pages/codingwork-e9f65026ce5fd8e2.js"
-    ],
-    "/cv": [
-      "static/chunks/webpack-8cac0b4b405cede1.js",
-      "static/chunks/framework-b96261d959dd50e7.js",
-      "static/chunks/main-e5cda668ab60045f.js",
-      "static/chunks/pages/cv-3df8a26836cbb964.js"
-    ],
-    "/gallery": [
-      "static/chunks/webpack-8cac0b4b405cede1.js",
-      "static/chunks/framework-b96261d959dd50e7.js",
-      "static/chunks/main-e5cda668ab60045f.js",
-      "static/chunks/pages/gallery-a19fee7839d5a0a8.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []

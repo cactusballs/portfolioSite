@@ -1,1 +1,7 @@
-{"/codingwork":"pages/codingwork.html","/_app":"pages/_app.js","/_error":"pages/_error.js","/gallery":"pages/gallery.html","/":"pages/index.html","/cv":"pages/cv.html","/_document":"pages/_document.js","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/codingwork": "pages/codingwork.js",
+  "/": "pages/index.js"
+}
